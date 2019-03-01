@@ -20,5 +20,5 @@ connection.query('SHOW DATABASES',function(err,rows,fields){
         console.log('Returned values were ',rows);
     }
 });
-connection.end()
+connection.end();
 console.log("All done now.");
